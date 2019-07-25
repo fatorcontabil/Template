@@ -1,0 +1,133 @@
+
+/**NavBar**/
+.space-title-blog{
+    margin-left:175px;
+    margin-top:3px;
+    color:rgb(4, 151, 115);
+    font-size:15px;
+}
+
+/**Content**/
+.bg-header{
+    background:rgba(202, 201, 201, 0.884);
+    padding-top:5px;
+    padding-bottom:1px;
+}
+
+.faixa-dica{
+    border-radius:10px;
+    background:rgb(4, 151, 115);
+    position:relative;
+    padding:2px 30px;
+    margin-top:100px;
+    margin-bottom:20px;
+    text-align:right;
+    width:350px;    
+    box-shadow:2px  5px 3px rgb(56, 56, 56),-5px -2px 5px rgb(56, 56, 56);
+}
+
+.faixa-dica h3{
+    color:white;
+    font-size:30px;
+    font-family:"Montserrat", sans-serif;
+}
+
+.pd-search{
+    padding-top:130px;
+}
+
+
+
+.bg-mais-artigos{
+    text-align:center;
+    background: rgb(239, 241, 241);
+}
+
+
+.align-h3{
+    text-align: left;
+    padding-left:10px;
+}
+
+.box-header{
+    border-bottom:3px solid rgba(238, 232, 232, 0.932);
+    padding:0.3px;
+    width:50%;
+    margin-bottom:10px;
+}
+.box-img-novidade{
+    border-radius:10px;
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    height:100%;
+    
+}
+
+
+.box-contet-novidade{
+    border-radius:10px;
+    left:140px;
+    top:-100px;
+    width:50%;   
+    padding-top:0.5px;    
+    margin-top:-30px;   
+    margin-bottom:-90px;
+    height:100%;
+    position:relative;
+    background:rgba(226, 225, 225, 0.829);
+    
+}
+
+.box-contet-novidade-2{
+    border-radius:10px;
+    left:140px;
+    top:-100px;
+    width:50%;   
+    padding-top:0.5px;    
+    margin-top:-30px;   
+    margin-bottom:-90px;
+    height:100%;
+    position:relative;
+    background:rgba(15, 15, 15, 0.829);
+    
+}
+
+.box-contet-novidade p{
+   color:rgb(0, 0, 0);
+   font-size:15px;
+}
+
+.box-contet-novidade h3{
+    font-size:40px;
+}
+
+.box-contet-novidade-2 p{
+    color:white;
+    font-size:15px;
+ }
+ 
+ .box-contet-novidade-2 h3{
+     font-size:40px;
+ }
+
+.bg-novidade{
+    background:rgb(44, 43, 43);
+    text-align:center;
+    padding-top:100px;
+}
+
+/**-----BOTÃO CARREGAR MAIS-----**/
+
+.load-more-btn{
+    padding: 15px 30px;
+    margin: 10px 0 30px;
+    transition: all .3s;
+    box-shadow: 0px 0px 2px rgba(0,0,0,.4);
+    background: #C3D8F5;
+}
+
+.ajuste{
+    padding:30px;
+    margin-top:30px;
+}

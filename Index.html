@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fator Contabil</title>
+    <link rel="icon" href="Imagens/favicon-32x32.png">
+    <!--Para gerar o icone acima que fica na aba do site no navegador, deve-se gerar o icone em 
+    algum site no google, somente escrevendo favicon generator-->
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--Barra de Menu-->
+    <nav class="header navbar-inverse navbar-transparente">
+      <div class="container-fluid">
+      <!--Header-->
+        <div class="navbar-header">
+          <!--Botão Toggle-->
+          <button type="button" class="navbar-toggle collapsed"
+                  data-toggle="collapse" data-target="#barra-navegacao">
+            <span class="sr-only">alternar navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <a href="Index.html" class="navbar-brand">
+          <span class="img-logo">Fator Contábil</span>
+        </a>
+        </div>
+      <!--Navbar-->
+        <div class="collapse navbar-collapse" id="barra-navegacao">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">BPO Financeiro</a></li>
+            <li><a href="">Gestão Tributária</a></li>
+            <li><a href="">Certificação Digital</a></li>
+            <li><a href="#servicos">Outros Serviços</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="divisor" role="separator"></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="">Quem Somos</a></li>
+          </ul>
+        </div>
+       
+      </div><!--Finaliza Container-->
+    </nav><!--Finaliza Nav-->
+    <!--Conteudos-->
+    <section id="servicos">
+      <div class="container">
+         <div class="row">
+
+              <!--Serviços-->
+              <div class="col-md-6">
+                <h2> Como anda a saúde da sua empresa ?</h2>
+               <p>Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non
+                  consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. 
+                  Ultrices sagittis orci a scelerisque purus.<br>
+               </p>
+                  <br><br>
+                <p><span class="glyphicon glyphicon-check"></span>
+                  Quis varius quam quisque id diam vel quam elementum.
+                </p>
+                <br>
+                <p><span class="glyphicon glyphicon-check"></span>
+                  Mauris augue neque gravida in fermentum.
+                </p>
+                <br>
+                <p><span class="glyphicon glyphicon-check"></span>
+                  Mauris augue neque gravida in fermentum.
+                </p>
+                <br>
+                <p><span class="glyphicon glyphicon-check"></span>
+                  Mauris augue neque gravida in fermentum.
+                </p>
+                
+
+              </div>
+
+              <!--Carrousel-->
+            <div class="col-md-6">
+              
+                <!--Base do Carousel-->
+                  <div id="carousel" class="carousel slide" data-ride="carousel"> 
+                    
+                    <!--Bolinhas de Indicação do Carousel-->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel" data-slide-to="1"></li>          
+                      <li data-target="#carousel" data-slide-to="2"></li>
+                    </ol>
+                    <!--Fim das Bolinhas-->
+
+                    <!--Imagens do Carousel-->
+                    <div class="carousel-inner" role="listbox">
+                      
+                      <div class="item active">
+                        <img src="Imagens/Carrosell/Carrossel 1.jpg"alt="">
+                      </div>
+
+                      <div class="item">
+                          <img src="Imagens/Carrosell/Carrossel2.jpg"alt="">
+                      </div>
+
+                      <div class="item">
+                          <img src="Imagens/Carrosell/Carrossel 3.jpg"alt="">
+                      </div>
+
+                    </div><!--Fim das Imagens-->
+
+                    <!--Setas do Carousel-->
+                    <a href="#carousel" class="left carousel-control"data-slide="prev">
+                      <i class="glyphicon glyphicon-chevron-left"></i>
+                    </a>
+
+                    <a href="#carousel" class="right carousel-control"data-slide="next">
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </a>
+                    <!--Fim da Setas do Carousel-->
+
+
+                  </div><!--Fim da Base do Carousel-->     
+
+            </div> <!--Fim do Carousel-->
+
+
+         </div><!--Fim da Row-->
+      </div><!--Fim do Container-->
+    </section>
+
+    <!--SECTION SERVICES 2-->
+    <div class="bg-img-servicos2">
+    <div class="servicos2">
+      <h3>Algumas especialidades</h3>
+      <div class="container">
+        <div class="row">
+          <nav class="nav-tabs">
+            <ul>
+              <li>
+                <input type="radio" name="tabs" class="rd-tabs" id="tab1">
+                <label for="tab1">Tab 1</label>
+                <div class="content"></div>
+              </li>
+
+              <li>
+                <input type="radio" name="tabs" class="rd-tabs" id="tab2">
+                <label for="tab2">Tab 2</label>
+                <div class="content"></div>
+              </li>
+
+              <li>
+                <input type="radio" name="tabs" class="rd-tabs" id="tab3">
+                <label for="tab3">Tab 3</label>
+                <div class="content"></div>
+              </li>
+
+              <li>
+                <input type="radio" name="tabs" class="rd-tabs" id="tab4">
+                <label for="tab4">Tab 4</label>
+                <div class="content"></div>
+              </li>
+
+              <li>
+                <input type="radio" name="tabs" class="rd-tabs" id="tab5">
+                <label for="tab5">Tab 5</label>
+                <div class="content"></div>
+              </li>
+
+              <li>
+                <input type="radio" name="tabs" class="rd-tabs" id="tab1">
+                <label for="tab1">Tab 1</label>
+                <div class="content"></div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!--/SECTION SERVICES 2-->
+  
+    <!--------SECTION BLOG--------->
+      
+            
+    <div id="blog" class="section md-padding">
+     <div class="backg-blog"> 
+      <div class="container">
+            <!--CABEÇALHO-->
+              <div class="row">
+                  <div class="section-header text-center">
+                      <h2>Ultimas Novidades</h2>
+                  </div>
+              </div>
+            
+        
+              <!--/CABEÇALHO-->
+          
+              <!--POSTAGEM-1-->      
+          <div class=col-md-4>
+          <div class="margin-post">
+              <!--IMG-POSTAGEM-->
+                <div>
+                  <img class="img-responsive" 
+                  src="Imagens\blog\blog1.jpg" alt>
+                </div>
+            <!--/IMG-POSTAGEM-->
+          
+            <!--CONTEUDO-->
+            <div class="blog-content">
+              <h3>Este é o titulo da postagem</h3>
+              <p>
+              Nec feugiat nisl pretium fusce id velit ut tortor pretium. 
+              Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.
+              </p>
+              <a href="">Saiba Mais</a>
+            </div>
+          <!--/CONTEUDO-->
+          </div><!--Fim fundo branco-->
+        </div><!--Fim col-md-4-->
+          
+        <!--/POSTAGEM-1-->
+
+        <!--POSTAGEM-2-->
+
+          <div class=col-md-4>
+              <div class="margin-post">
+                  <!--IMG-POSTAGEM-->
+                    <div>
+                      <img class="img-responsive" 
+                      src="Imagens\blog\blog2.jpg" alt>
+                    </div>
+                <!--/IMG-POSTAGEM-->
+              
+                <!--CONTEUDO-->
+                <div class="blog-content">
+                  <h3>Este é o titulo da postagem</h3>
+                  <p>
+                  Nec feugiat nisl pretium fusce id velit ut tortor pretium. 
+                  Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.
+                  </p>
+                  <a href="">Saiba Mais</a>
+                </div>
+              <!--/CONTEUDO-->
+              </div><!--Fim fundo branco-->
+            </div><!--Fim col-md-4-->
+          <!--/POSTAGEM-2-->
+
+          <!--POSTAGEM-3-->
+          <div class=col-md-4>
+              <div class="margin-post">
+                  <!--IMG-POSTAGEM-->
+                    <div>
+                      <img class="img-responsive" 
+                      src="Imagens\blog\blog3.jpg" alt>
+                    </div>
+                <!--/IMG-POSTAGEM-->
+              
+                <!--CONTEUDO-->
+                <div class="blog-content">
+                  <h3>Este é o titulo da postagem</h3>
+                  <p>
+                  Nec feugiat nisl pretium fusce id velit ut tortor pretium. 
+                  Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.
+                  </p>
+                  <a href="">Saiba Mais</a>
+                </div>
+              <!--/CONTEUDO-->
+              </div><!--Fim fundo branco-->
+            </div><!--Fim col-md-4-->
+          <!--/POSTAGEM-3-->
+          <!--POSTAGEM 4-->
+          <div class=col-md-4>
+              <div class="margin-post">
+                  <!--IMG-POSTAGEM-->
+                    <div>
+                      <img class="img-responsive" 
+                      src="Imagens\blog\blog3.jpg" alt>
+                    </div>
+                <!--/IMG-POSTAGEM-->
+              
+                <!--CONTEUDO-->
+                <div class="blog-content">
+                  <h3>Este é o titulo da postagem</h3>
+                  <p>
+                  Nec feugiat nisl pretium fusce id velit ut tortor pretium. 
+                  Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.
+                  </p>
+                  <a href="">Saiba Mais</a>
+                </div>
+              <!--/CONTEUDO-->
+              </div><!--Fim fundo branco-->
+            </div><!--Fim col-md-4-->
+          <!--/POSTAGEM 4-->
+      
+          <!--POSTAGEM 5-->
+          <div class=col-md-4>
+            <div class="margin-post">
+                <!--IMG-POSTAGEM-->
+                  <div>
+                    <img class="img-responsive" 
+                    src="Imagens\blog\blog1.jpg" alt>
+                  </div>
+              <!--/IMG-POSTAGEM-->
+            
+              <!--CONTEUDO-->
+              <div class="blog-content">
+                <h3>Este é o titulo da postagem</h3>
+                <p>
+                Nec feugiat nisl pretium fusce id velit ut tortor pretium. 
+                Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.
+                </p>
+                <a href="">Saiba Mais</a>
+              </div>
+            <!--/CONTEUDO-->
+            </div><!--Fim fundo branco-->
+          </div><!--Fim col-md-4-->
+          <!--/POSTAGEM 5-->
+
+          <!--POSTAGEM 6-->
+         
+          <div class=col-md-4>
+            <div class="margin-post">
+                <!--IMG-POSTAGEM-->
+                  <div>
+                    <img class="img-responsive" 
+                    src="Imagens\blog\blog2.jpg" alt>
+                  </div>
+              <!--/IMG-POSTAGEM-->
+            
+              <!--CONTEUDO-->
+              <div class="blog-content">
+                <h3>Este é o titulo da postagem</h3>
+                <p>
+                Nec feugiat nisl pretium fusce id velit ut tortor pretium. 
+                Nisl purus in mollis nunc sed. Nunc non blandit massa enim nec.
+                </p>
+                <a href="">Saiba Mais</a>
+              </div>
+            <!--/CONTEUDO-->
+            </div><!--Fim fundo branco-->
+          </div><!--Fim col-md-4-->
+          <!--/POSTAGEM 6-->      
+      </div><!--FIM DO CONTAINER-->
+    </div><!--FIM BACKGROUND BLACK-->
+ </div><!--FIM DA SECTION BLOG-->
+
+ <div class="project"> <!--SECTION DISCUSS PROJECT-->
+ <div class="bg-black">
+  <div class="container">
+  <div class="row">
+    <div class="center-title">
+      <h2>Nossa Equipe:</h2>  
+    </div>
+    <div class="align-img">
+    <div class="col-md-4">
+      <div class="equip">
+      <img src="Imagens\Equipe\team1.jpg">
+      </div>
+      <div class="title-cargo">
+      <h3>Nome</h3>
+      <p>Contador</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="equip">
+      <img src="Imagens\Equipe\team2.jpg">
+      </div>
+      <div class="title-cargo">
+      <h3>Nome</h3>
+      <p>Contador</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="equip">
+      <img src="Imagens\Equipe\team3.jpg">
+      </div>
+      <div class="title-cargo">
+      <h3>Nome</h3>
+      <p>Contador</p>
+      </div>
+    </div>
+    </div>
+    
+    
+
+  </div>  
+  </div><!--/CONTAINER-->
+ </div>
+ </div><!--/SECTION DISCUSS POJECT-->
+
+
+
+
+<!--RODA-PÉ-->
+<section id="contato">
+<footer>    
+  <div class="info-roda-pe"> 
+   <!--SECTION CONTACT-->
+    <div class="container">  
+     
+      <div class="row">          
+          <div class="col-md-12">
+            <h3>Nosso Contato:</h3>           
+          </div>  
+          <p class="text-center">Sinta-se a vontade para nos contatar. 
+          <p class="text-center">Aqui encontramos a solução</p>
+           
+      </div><!--/ROW-->
+
+      <div class="row"> <!--row-->
+        <div class="col-md-4">
+          <div class="text-center">
+            <div class="icon-config"> 
+            <i class="glyphicon glyphicon-map-marker"></i>
+            </div>
+            <p>Rua: Jaime Vilas Boas Nº 250</p>
+            <p>Monte Belo, Vitória-ES</p>
+          </div>
+        </div>
+
+         <div class="col-md-4">
+            <div class="text-center">
+              <div class="icon-config"> 
+              <i class="glyphicon glyphicon-earphone"></i>
+              </div>
+              <p>Telefone: (27) 3322-1388</p>
+              <p>De Segunda á Quinta (08:00-18:00)
+               <br>Sexta (08:00-17:00)
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+              <div class="text-center">
+                <div class="icon-config"> 
+                <i class="glyphicon glyphicon-envelope"></i>
+                </div>
+                <p>E-mail:gerencia@fatorcontabil.cnt.br</p>
+                <p>Site:www.fatorcontabil.com.br</p>
+              </div>
+          </div>
+      </div><!--/row-->
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14966.798072146681!2d-40.315727!3d-20.312701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ca8550619c35e8b!2sFator+Contabil!5e0!3m2!1spt-BR!2sbr!4v1556825277276!5m2!1spt-BR!2sbr"
+             width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div><!--/CONTAINER-->
+   </div> <!--/INFO RODAO-PE-->
+</footer>
+</section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+    $('#carousel').carousel({
+      interval:3000
+    })
+
+    $('#carousel-1').carousel({
+      interval:15000
+    })
+
+    </script>
+  
+  </body>
+</html>
