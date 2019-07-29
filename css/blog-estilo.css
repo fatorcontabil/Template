@@ -8,51 +8,27 @@
 }
 
 /**Content**/
-.bg-header{
-    background:rgba(202, 201, 201, 0.884);
-    padding-top:5px;
-    padding-bottom:1px;
-}
-
-.faixa-dica{
-    border-radius:10px;
-    background:rgb(4, 151, 115);
-    position:relative;
-    padding:2px 30px;
-    margin-top:100px;
-    margin-bottom:20px;
-    text-align:right;
-    width:350px;    
-    box-shadow:2px  5px 3px rgb(56, 56, 56),-5px -2px 5px rgb(56, 56, 56);
-}
-
-.faixa-dica h3{
-    color:white;
-    font-size:30px;
-    font-family:"Montserrat", sans-serif;
-}
-
-.pd-search{
-    padding-top:130px;
-}
 
 
 
-.bg-mais-artigos{
+
+.bg-artigos{
+    padding-top:100px;
     text-align:center;
     background: rgb(239, 241, 241);
 }
 
-
+.pesquisa{
+    height:30px;
+}
 .align-h3{
     text-align: left;
     padding-left:10px;
 }
 
 .box-header{
-    border-bottom:3px solid rgba(238, 232, 232, 0.932);
-    padding:0.3px;
-    width:50%;
+    border-bottom:2px solid rgba(19, 18, 18, 0.932);
+    padding:10px;   
     margin-bottom:10px;
 }
 .box-img-novidade{

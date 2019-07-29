@@ -187,8 +187,8 @@ h3{
     padding-bottom:15px;
 }
 .icon-services{
-    padding-top:-30px;
-    font-size:40px;
+    padding-top:-20px;
+    font-size:25px;
     text-align: center;
     color:rgb(253, 250, 250);
 }
@@ -210,9 +210,62 @@ h3{
     color:white;
 }
 
+.nav-tabs{
+    width:1000px;
+    height:300px;
+    margin:5px auto;
+    background-color:white;
+    position:relative;
+}
 
+.nav-tabs ul{
+    list-style:none;
+}
 
+.nav-tabs ul li{
+    float:left;
+}
 
+.nav-tabs label{
+    width:200px;
+    padding:5px;
+    background-color:gray;
+    display:block;
+    color:white;
+    cursor:pointer;
+    text-align:center;
+}
+
+.rd-tabs:checked~label{
+    background-color:rgb(4, 151, 115);
+}
+.rd-tabs{
+    display:none;
+}
+.nav-tabs p{
+    padding-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    
+    border-top:5px solid rgb(4, 151, 115);
+    background-color:#fff;
+    display:none;
+    position:absolute;
+    height:200px;
+    width:1000px;
+    left:0;
+}
+
+.rd-tabs:checked~.content{
+display:block;
+}
+
+article{
+    padding:10px;
+    
+    text-align:justify;
+}
 /**-------------------------BLOG-------------------------------------**/
 
 /*--CSS do Cabeçalho--*/
