@@ -3,18 +3,6 @@ html, body, .capa{
     height:100%;    
 }
 
-/**body{
-    background:url('../Imagens/capa-fundo.jpg');
-    background-repeat: no-repeat;
-    background-size:100%;
-    left:0;   
-    right:0;
-    top:0;
-    bottom:0;
-    background-attachment:fixed;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-}
 /*Barra de Menu*/
 .header{
     padding:30px 0;
@@ -67,52 +55,8 @@ html, body, .capa{
     color:#00FFBF;
 }
 
-/** ------------CAPA PRINCIPAL---------------------**/
-.bg-carousel{
-    background:rgba(10, 10, 10, 0.651)
-}
 
 
-
-
-.box-carousel{
-margin:0px 0 1px;
-
-}
-#intro{
-    display:table;
-    width:100%;
-    
-    background:black;
-}
-
-#intro .text-2{
-    text-align:center;
-    width:100%;
-    
-}
-
-#intro .text-1{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    position:absolute;
-    bottom:0;
-    top:0;
-    left:0;
-    right:0;
-
-}
-
-#intro .text-1 .text-2 h2{
-    color:white;
-    font-family:"Montserrat", sans-serif;
-}
-#intro .text-1 .text-2 p{
-    color:white;
-    font-size:20px;
-    
-}
 
 
 /**--------------------TIPOGRAFIA--------------------**/
@@ -138,26 +82,8 @@ h3{
 }
 
 
-/**---------------------BOTÃO----------------------**/
 
-.btn-custom{
-    color:white;
-    border-radius:500px;
-    -webkit-border-radius:500px;
-    -moz-border-radius:500px;
-    padding:10px 35px;
-    text-transform:uppercase;
-    transition: background 0.4s, color 0.4s;
-}
-.btn-verde{
-    background:rgb(4, 151, 115);
 
-}
-
-.btn-verde:hover{
-    background-color:rgb(2, 88, 67);
-    color:white;
-}
 
 /**---------------------SEÇÃO SERVIÇOS-------------------------------**/
 
@@ -367,7 +293,8 @@ color:grey;
 }
 
 .align-img{
-    padding-left:120px;
+    padding-top:50px;
+    padding-left:150px;
 }
 
 .equip{
@@ -398,6 +325,16 @@ color:grey;
     margin-left:-8px;
     position:relative;
     bottom:2px;
+}
+
+.align-curriculum{
+    height:100%;
+    margin-right:100px;
+    margin-top: -220px;
+    padding-left:150px;
+    padding-right:50px;
+    text-align:justify;
+    position:relative;
 }
 
 /**--RODA-PÉ---**/
